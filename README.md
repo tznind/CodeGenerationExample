@@ -30,3 +30,8 @@ Getting analyzers to work properly involves many gotchas:
 - Generator must have `<LangVersion>Latest</LangVersion>`
 - Generator must have `<EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>`
 - Consumer project reference must have the additional XML attribute `OutputItemType="Analyzer"`
+
+Another thing to know is that the Analyzer will often appear in VisualStudio as 'Ignored'.  This is a 'False Positive', the only thing that matters is that the generator class appears under the tree:
+
+![image](https://github.com/user-attachments/assets/264a2852-86f1-4511-861c-cd064a4a47f6)
+_Despite being marked as 'ignored' it is working as intended_

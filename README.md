@@ -34,4 +34,5 @@ Getting analyzers to work properly involves many gotchas:
 Another thing to know is that the Analyzer will often appear in VisualStudio as 'Ignored'.  This is a 'False Positive', the only thing that matters is that the generator class appears under the tree:
 
 ![image](https://github.com/user-attachments/assets/264a2852-86f1-4511-861c-cd064a4a47f6)
+
 _Despite being marked as 'ignored' it is working as intended_
